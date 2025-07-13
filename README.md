@@ -3,7 +3,6 @@
 Un sencillo programa escrito en Python para gestionar un catálogo de obras de arte.
 Permite consultar la informacoin de las obras, agregar nuevas y guardar información sobre si el usuario las visitó o no, así como cambiar a "visitado" una vez que hayas visitado una obra.
 
----
 
 ## Funcionalidades
 
@@ -11,14 +10,13 @@ Permite consultar la informacoin de las obras, agregar nuevas y guardar informac
 - Consultar obras por ID de catalogo, titulo, artista o año.
 - Marcar obras como visitadas
 
----
 
 ## Requisitos
 
 - Python 3.7 o superior
 - Pip (para instalar dependencias)
 
----
+
 
 ## Instalacion y configuracion del entorno
 
