@@ -22,33 +22,39 @@ Este programa incluyo un historial de errores.
 
 ## Instalacion y configuracion del entorno
 
-1. **Clonar el repositorio**  
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo
-
+1. Clonar el repositorio  
+```bash
+   git clone https://github.com/SofiEstevez/catalogo_arte.git
+```
 
 2. Crear/activar el entorno virtual (ejemplo usando venv)
+
     a. En Windows
 ```bash
     python -m venv env
     .\env\Scripts\activate
+```
 
     b. En Mac / linux 
 ```bash
     python3 -m venv env
     source env/bin/activate
+```
 
 3. Instalar las dependencias especificadas en requirements.txt
 ```bash
 pip install -r requirements.txt
+```
 
 4. Ejecutar el programa
+```bash
 python main.py
+```
 
 5. Al terminar de trabajar, desactivar entorno
-activate
-
+```bash
+deactivate
+```
 
 # Esctructura del proyecto
 final/
