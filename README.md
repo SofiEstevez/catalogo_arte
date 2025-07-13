@@ -26,20 +26,20 @@ Permite consultar la informacoin de las obras, agregar nuevas y guardar informac
 ```
 
 2. Crear/activar el entorno virtual (ejemplo usando venv)
-
-    a. En Windows
+ 2a En Windows
    
 ```bash
     python -m venv env
     .\env\Scripts\activate
 ```
 
-    b. En Mac / linux 
+b. En Mac / Linux
     
 ```bash
     python3 -m venv env
     source env/bin/activate
 ```
+
 
 3. Instalar las dependencias especificadas en requirements.txt
 
@@ -58,11 +58,15 @@ python main.py
 deactivate
 ```
 
-# Esctructura del proyecto
+
+# Estructura del proyecto
+
+```plaintext
 final/
-├── catalogo.py             # Funciones con la logica detras de las opciones del menu principal
+├── catalogo.py             # Funciones con la lógica detrás de las opciones del menú principal
 ├── main.py                 # Menú principal, opciones que llama el usuario
-├── catalogo.csv            # Archivo donde se guarda toda la informacion de las obras
-├── history.log             # Logs del sistema. Aqui se guarda un historial de errores
+├── catalogo.csv            # Archivo donde se guarda toda la información de las obras
+├── history.log             # Logs del sistema. Aquí se guarda un historial de errores
 ├── requirements.txt        # Dependencias del proyecto
 └── README.md               # Este archivo
+
