@@ -1,8 +1,8 @@
 # ¿Qué es este progama?
 
-Un sencillo programa en Python para gestionar un catalogo de obras de arte. 
-Permite consultar información de las obras, agregar nuevas y guardar información sobre si el usuario las visito o no.
-Este programa incluyo un historial de errores.
+Un sencillo programa escrito en Python para gestionar un catálogo de obras de arte.
+Permite consultar la informacoin de las obras, agregar nuevas y guardar información sobre si el usuario las visitó o no, así como cambiar a "visitado" una vez que hayas visitado una obra.
+
 ---
 
 ## Funcionalidades
@@ -30,23 +30,27 @@ Este programa incluyo un historial de errores.
 2. Crear/activar el entorno virtual (ejemplo usando venv)
 
     a. En Windows
+   
 ```bash
     python -m venv env
     .\env\Scripts\activate
 ```
 
     b. En Mac / linux 
+    
 ```bash
     python3 -m venv env
     source env/bin/activate
 ```
 
 3. Instalar las dependencias especificadas en requirements.txt
+
 ```bash
 pip install -r requirements.txt
 ```
 
 4. Ejecutar el programa
+
 ```bash
 python main.py
 ```
