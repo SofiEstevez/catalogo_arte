@@ -25,20 +25,21 @@ Permite consultar la informacoin de las obras, agregar nuevas y guardar informac
    git clone https://github.com/SofiEstevez/catalogo_arte.git
 ```
 
-2. Crear/activar el entorno virtual (ejemplo usando venv)
- 2a En Windows
-   
-```bash
+2. Crear y activar el entorno virtual (ejemplo usando venv)
+
+    a. En Windows
+
+    ```bash
     python -m venv env
     .\env\Scripts\activate
-```
+    ```
 
-b. En Mac / Linux
-    
-```bash
+    b. En Mac / Linux
+
+    ```bash
     python3 -m venv env
     source env/bin/activate
-```
+    ```
 
 
 3. Instalar las dependencias especificadas en requirements.txt
