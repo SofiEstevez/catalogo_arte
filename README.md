@@ -1,8 +1,8 @@
-# Que es este pgorama?
+# ¿Qué es este progama?
 
-Un sencillo programa en python de gestion de un catalogo de obras de arte. 
-Permite consultar informacion de obras de arte, agregar nuevas obras y guardar informacion de si las visitaste o no.
-Este programa incluyo un archivo de historial de errores.
+Un sencillo programa en Python para gestionar un catalogo de obras de arte. 
+Permite consultar información de las obras, agregar nuevas y guardar información sobre si el usuario las visito o no.
+Este programa incluyo un historial de errores.
 ---
 
 ## Funcionalidades
